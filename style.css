@@ -47,13 +47,15 @@ h2 {
 
 textarea,
 #output {
-  height: 20vh;
+  min-height: 20vh;
   width: 25vw;
   border: 2px solid;
   margin: 2rem;
   border-radius: 20px;
   padding: 10px;
   font-size: 1.1rem;
+  word-break: break-all;
+  /* overflow-y: scroll; */
 }
 button {
   min-width: 100px;
